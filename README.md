@@ -1,7 +1,6 @@
 # Spring Transactional Deep Dive
 
-Spring의 `@Transactional`이 예상과 다르게 동작하는 상황을 직접 재현하고,
-AOP 프록시와 트랜잭션 경계를 중심으로 내부 동작을 정리하는 리서치입니다.
+`@Transactional`은 애노테이션을 붙이는 것만으로 항상 기대대로 동작하는 것이 아니며, Spring의 프록시 구조와 트랜잭션 경계에 따라 실제 동작이 달라질 수 있다.
 
 ## Research Topic
 
